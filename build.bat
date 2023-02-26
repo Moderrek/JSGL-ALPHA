@@ -1,0 +1,1 @@
+.\JSCombiner.exe src/JSGL.js src/Vector2.js src/Utils.js src/GridSettings.js src/Renderer.js src/GameManager.js src/SoundManager.js src/GameObject.js src/Sprite.js -o out/jsgl.js
