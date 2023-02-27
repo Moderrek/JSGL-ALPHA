@@ -5,6 +5,6 @@ class JSGL{
      * @returns {string} The library version
      */
     static getVersion(){
-        return '0.1-alpha';
+        return '0.1.1-alpha';
     }
 }
