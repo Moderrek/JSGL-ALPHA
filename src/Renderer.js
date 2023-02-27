@@ -46,6 +46,7 @@ class Renderer{
      * @returns {number} a * gridSize
      */
     scaleToGrid = a => a * this.#gridSize;
+    getGridPixelLength = () => this.scaleToGrid(1);
     /**
      * @returns {CanvasRenderingContext2D}
      */

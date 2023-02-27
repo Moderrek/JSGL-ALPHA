@@ -51,7 +51,8 @@ class GameManager{
                 Utils.isInRange(mousePos.y, gameObjectY, gameObjectY+gameObjectHeight);
             if(!isClickedAtSprite)
                 continue;
-            if(gameObject.OnMouseClick(mousePos, this))
+            let gridPos = mousePos.divide(this.renderer.getGridPixelLength());
+            if(gameObject.OnMouseClick(new Vector2(Math.floor(gridPos.x), Math.floor(gridPos.y)), this))
                 break;
         }
     }

@@ -48,7 +48,7 @@ class Utils{
      * @param imagePath The image source
      * @returns {HTMLImageElement} The image element
      */
-    createImage(imagePath) {
+    static createImage(imagePath) {
         let image = new Image();
         image.src = imagePath;
         return image;
